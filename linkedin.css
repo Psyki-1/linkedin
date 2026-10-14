@@ -1,0 +1,246 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+} 
+ 
+.logo-div { 
+    padding: 2px 32px 1px; 
+} 
+ 
+.linkedin-logo { 
+    width: 132px; 
+    max-width: 100%; 
+    height: auto; 
+    max-height: 100%; 
+} 
+ 
+.form-div { 
+    display: grid; 
+    flex-direction: column; 
+    width: 1500px; 
+    max-width: 100%; 
+    height: auto; 
+    max-height: 100%; 
+    place-items: center; 
+    align-items: start; 
+    justify-items: center; 
+    margin: 0 auto; 
+} 
+ 
+.linkedin-form { 
+    display: flex; 
+    flex-direction: column; 
+    width: 400px; 
+    max-width: 100%; 
+    height: auto; 
+    max-height: 100%; 
+    justify-content: flex-start; 
+    border: 1px solid #cccccc; 
+    border-radius: 5px; 
+    padding: 25px; 
+} 
+ 
+.form-title { 
+    margin: 0 0 2px; 
+} 
+ 
+h1 { 
+    font-weight: 400; 
+    color: #000000E6; 
+} 
+ 
+.small-paragraph { 
+    margin: 0 0 20px; 
+} 
+ 
+span { 
+    color: #0A66C2; 
+} 
+ 
+ 
+/* GOOGLE */ 
+ 
+.google { 
+    height: 50px; 
+    max-height: 100%; 
+    background-color: #ffffff; 
+    border-radius: 50px; 
+    margin: 0 0 8px; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+} 
+ 
+.google:hover { 
+    background-color: #c8dfea; 
+    transition: 0.75s; 
+} 
+ 
+.google-logo { 
+    max-height: 20px; 
+    height: 100%; 
+    background-color: inherit; 
+} 
+ 
+ 
+/* MICROSOFT */ 
+ 
+.Microsoft { 
+    height: 50px; 
+    max-height: 100%; 
+    background-color: #ffffff; 
+    border-radius: 50px; 
+    margin: 0 0 8px; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+} 
+ 
+.Microsoft:hover { 
+    background-color: #d9d9d9; 
+    transition: 0.75s; 
+} 
+ 
+.Micorsoft-logo { 
+    background-color: inherit; 
+} 
+ 
+ 
+/* APPLE */ 
+ 
+.Apple { 
+    height: 50px; 
+    max-height: 100%; 
+    background-color: #ffffff; 
+    border-radius: 50px; 
+    margin: 0 0 8px; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px; 
+} 
+ 
+.Apple:hover { 
+    background-color: #d9d9d9; 
+    transition: 0.75s; 
+} 
+ 
+.Apple-logo { 
+    background-color: inherit; 
+} 
+ 
+ 
+button { 
+    margin: 0 0 8px; 
+} 
+ 
+ 
+.sign-in-section { 
+    display: grid; 
+    margin: 0 0 8px; 
+} 
+ 
+ 
+p { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    font-size: 12px; 
+} 
+ 
+ 
+.divider { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+} 
+ 
+.divider::before, 
+.divider::after { 
+    content: ""; 
+    flex: 1; 
+    height: 1px; 
+    background-color: #cccccc; 
+} 
+ 
+.divider p { 
+    margin: 0; 
+} 
+ 
+ 
+/* EMAIL */ 
+ 
+.Email-number-section { 
+    display: flex; 
+    height: 41px; 
+    width: 311px; 
+    border-radius: 5px; 
+    border-color: #000000E6; 
+    border-style: solid; 
+    border-width: 1px; 
+} 
+ 
+ 
+/* PASSWORD */ 
+ 
+.Password { 
+    display: flex; 
+    height: 41px; 
+    width: 311px; 
+    border-radius: 5px; 
+    border-color: #000000E6; 
+    border-style: solid; 
+    border-width: 1px; 
+} 
+ 
+ 
+label { 
+    font-size: 12px; 
+} 
+ 
+ 
+.forgot-password { 
+    margin: 10px; 
+    color: #0A66c2; 
+} 
+ 
+ 
+.check-up-questions { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    gap: 20px; 
+} 
+ 
+ 
+.keep-signed { 
+    margin-bottom: 50px; 
+} 
+ 
+ 
+.sign-in-button {  
+    width: 100%;  
+    height: 50px;  
+    max-height: 100%;  
+    background-color: #0000cd;  
+    color: #ffffff;  
+    border-radius: 50px;  
+    margin: 0 0 8px;  
+    display: inline-flex;  
+    align-items: center;  
+    justify-content: center;  
+    gap: 10px;  
+    font-weight: 700;  
+    font-size: 16px; 
+}
+
+.webpage-end-text{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    font-size: 12px; 
+    margin-top: 20px;
+}
